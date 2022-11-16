@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#borderimg1 { 
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image-source: url(dog.jpg);
+  border-image-repeat: round;
+  border-image-slice: 30;
+  border-image-width: 10px;    
+}
+
+#borderimg2 { 
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image-source: url(test.jpg);
+  border-image-repeat: round;
+  border-image-slice: 30;
+  border-image-width: 20px;    
+}
+
+#borderimg3 { 
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image-source: url(dog.jpg);
+  border-image-repeat: round;  
+  border-image-slice: 30;
+  border-image-width: 20px;    
+}
+</style>
+</head>
+<body>
+
+<h1>The border-image-width Property</h1>
+
+<p>The border-image-width property specifies the width of the border image:</p>
+<p id="borderimg1">Welcome you</p>
+<p id="borderimg2">Welcome back</p>
+<p id="borderimg3" style="text-align: center; background: coral; padding: 20px; word-spacing: 9px;">Thank You all</p>
+
+<p>Here is the original image:</p>
+<img src="dog.jpg">
+
+<p><strong>Note:</strong> Internet Explorer 10, and earlier versions, do not support the border-image-width property.</p>
+
+</body>
+</html>

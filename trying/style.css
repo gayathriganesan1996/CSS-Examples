@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.left{
+    float: left;
+}
+.left ul{
+    list-style-type: none;
+    margin-top: 15px;
+}
+.left ul li a{
+    text-decoration: none;
+    color: white;
+}
+.left ul li{
+    display: inline;
+    margin-left: 8px;
+}
+.left .nav{
+    font-size: large;
+}
+.left .link a{
+    color: #ffffffb3;
+}
+.left .disabled a{
+    color: #e3d7d7a8;
+}
+.right{
+    float: right;
+    display: inline;
+    margin-top: 8px;
+}
+.right input{
+    width: 185px;
+    margin-top: -7px;
+    height: 32px;
+    border-radius: 5px;
+    margin-right: 7px;
+    }
+.right button{
+    width: 112px;
+    height: 34px;
+    color: #3dd93dfa;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid green;
+    margin-right: 10px;
+}
+.main{
+    width: 100%;
+    height: 350px;
+    background-color: #5e5a5ac9;
+}
+.main h1{
+    padding-top: 143px;
+    margin-left: 11%;
+    font-family: arial;
+    color: white;
+}
+.main p{
+    margin-top: 10px;
+    margin-left: 148px;
+    margin-right: 170px;
+    font-size: 17px;
+    color: white;
+}
+.main button{
+    margin-top: 15px;
+    margin-left: 147px;
+    background-color: #5454e5;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.main2{
+    width: 100%;
+    height: 400px;
+    
+}
+.col1{
+    width: 28%;
+    height: 100%;
+   
+    float: left;
+    margin-left: 70px;
+}
+.col1 .round1{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-top: 30px;
+    margin-left: 53px;
+}
+.col1 h2{
+    margin-left: 69px;
+    line-height: 38px;
+    font-family: arial; 
+}
+.col1 p{
+    margin-left: -28px;
+    line-height: 22px;
+    font-family: arial;
+    margin-right: 29px;
+    font-size: 15px;
+}
+.col1 button{
+    padding-left: 9px;
+    margin-left: 68px;
+    margin-top: 10px;
+    background-color: gray;
+    padding-right: 17px;
+    height: 33px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+}
+.col2{
+    width: 28%;
+    height: 100%;
+   
+    float: left;
+    margin-left: 70px;
+}
+.col2 .round2{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-top: 30px;
+    margin-left: 54px;
+}
+.col2 h2{
+    margin-left: 69px;
+    line-height: 38px;
+    font-family: arial;
+}
+.col2 p{
+    margin-left: -29px;
+    line-height: 22px;
+    font-family: arial;
+    margin-right: 35px;
+    font-size: 15px;
+}
+.col2 button{
+    padding-left: 9px;
+    margin-left: 68px;
+    margin-top: 10px;
+    background-color: gray;
+    padding-right: 17px;
+    height: 33px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+}
+.col3{
+    width: 28%;
+    height: 100%;
+   
+    float: left;
+    margin-left: 70px; 
+}
+.col3 .round3{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-top: 30px;
+    margin-left: 54px;
+}
+.col3 h2{
+    margin-left: 69px;
+    line-height: 38px;
+    font-family: arial;
+}
+.col3 p{
+    margin-left: -29px;
+    line-height: 22px;
+    font-family: arial;
+    margin-right: 35px;
+    font-size: 15px;
+}
+.col3 button{
+    padding-left: 9px;
+    margin-left: 68px;
+    margin-top: 10px;
+    background-color: gray;
+    padding-right: 17px;
+    height: 33px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+}
+.bx{
+    position: absolute;
+    font-size: 17px;
+}
+.main3{
+    width: 100%;
+    height: 390px;
+}
+.part1{
+    width: 45%;
+    height: 75%;
+    margin-left: 69px;
+    margin-top:85px;
+    float: left;
+}
+.part2{
+    width:27%;
+    height: 80%;
+    float: left;
+    margin-left: 183px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 4px; 
+    margin-right: 88px;
+}
+.part2 p{
+    margin-top: 150px;
+    color: gray;
+    font-size: 18px;
+    line-height: 15px;
+    
+}
+.part1 h1{
+    font-weight: lighter;
+    word-spacing: 3px;
+    font-family: arial;
+}
+.part1 p{
+    line-height: 25px;
+    font-family: arial;
+}

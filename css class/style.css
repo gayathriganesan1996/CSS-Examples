@@ -1,0 +1,65 @@
+.body{
+  background-image: url("/image/dog.jpg");
+ }
+.example1 {
+    border: 10px dotted black;
+    padding: 20px;
+    background: lightblue;
+    background-clip: border-box;  
+  }
+  
+  #example2 {
+    border: 10px dotted black;
+    padding: 30px;
+    background: lightblue;
+    background-clip: padding-box;
+  }
+  
+  #example3 {
+    border: 10px dotted black;
+    padding: 15px;
+    background: lightblue;
+    background-clip: content-box;
+  } 
+  .hero-image {
+    background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+    background-color: #cccccc;
+    height: 790px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  #example1 {
+    border: 10px dashed black;
+    padding: 25px;
+    background: url(/test.jpg);
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+  }
+  
+  #example2 {
+    border: 10px dashed black;
+    padding: 25px;
+    background: url(/test.jpg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+  }
+  
+  #example3 {
+    border: 10px dashed black;
+    padding: 25px;
+    background: url(/test.jpg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+  }
+  
